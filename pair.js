@@ -1,4 +1,4 @@
-const PastebinAPI = require('pastebin-js'),
+hiconst PastebinAPI = require('pastebin-js'),
 pastebin = new PastebinAPI('EMWTMkQAVfJa9kM-MRUrxd5Oku1U7pgL')
 const {makeid} = require('./id');
 const express = require('express');
@@ -57,21 +57,25 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: '' + b64data });
 
                let GIFTED_MD_TEXT = `
-*_Pair Code Connected by WASI TECH*
-*_Made With 🤍_*
-______________________________________
+_*HELLO RAZA-INC-MD USER*_ 👋 
+
+*_PAIR CODE CONNECTED_*
+
+*_POWERED BY LEGEND RAZA_*🙂🥂
+___________________________________
 ╔════◇
-║ *『 WOW YOU'VE CHOSEN WASI MD 』*
-║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
+║ _*『 WOW YOU'VE CHOSEN RAZA-INC-MD 』*_
+║ _YOU HAVE COMPLETED THE FIRST STEP TO DEPLOY A WHATSAPP BOT._
 ╚════════════════════════╝
 ╔═════◇
-║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ *Ytube:* _youtube.com/@wasitech1_
-║❒ *Owner:* _https://wa.me/923192173398_
-║❒ *Repo:* _https://github.com/wasixd/WASI-MD
-║❒ *WaGroup:* _https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j
-║❒ *WaChannel:* _https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j
-║❒ *Plugins:* _https://github.com/wasixd/WASI-MD-PLUGINS_
+║  ••• _𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽_ •••
+║❒ _*YOUTUBE:*_ _youtube.com/@INNOXCENTRAZA_
+║❒ *Owner:* _https://wa.me/923280966780_
+║❒ _*Repo:*_ _https://github.com/LEGEND-RAZA/RAZA-INC-MD-V1
+║
+
+║❒ _*WA CHANNEL:*_ _https://whatsapp.com/channel/0029Vb3tkvIJZg48ETQSWN2z_
+║
 ╚════════════════════════╝
 _____________________________________
 
