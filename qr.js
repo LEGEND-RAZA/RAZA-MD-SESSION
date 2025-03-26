@@ -16,16 +16,26 @@ const fs = require("fs-extra");
 const { Boom } = require("@hapi/boom");
 const PORT = process.env.PORT ||  5000
 const MESSAGE = process.env.MESSAGE ||  `
-┌───⭓『
-❒ *WASI-MD*
-❒ _NOW DEPLOY IT_
-└────────────⭓
-┌───⭓
-❒  • Chat with owner •
-❒ *GitHub:* __https://github.com/WASI-MD_
-❒ *Author:* _wa.me/923192173398_
-❒ *YT:* _https://youtube.com/@wasitech10_
-└────────────⭓
+_*HELLO RAZA-INC-MD USER*_ 👋 
+
+*_PAIR CODE CONNECTED_*
+
+*_POWERED BY LEGEND RAZA_*🙂🥂
+___________________________________
+╔════◇
+║ _*『 WOW YOU'VE CHOSEN RAZA-INC-MD 』*_
+║ _YOU HAVE COMPLETED THE FIRST STEP TO DEPLOY A WHATSAPP BOT._
+╚════════════════════════╝
+╔═════◇
+║  ••• _𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽_ •••
+║❒ _*YOUTUBE:*_ _youtube.com/@INNOXCENTRAZA_
+║❒ *Owner:* _https://wa.me/923280966780_
+║❒ _*Repo:*_ _https://github.com/LEGEND-RAZA/RAZA-INC-MD-V1
+║
+
+║❒ _*WA CHANNEL:*_ _https://whatsapp.com/channel/0029Vb3tkvIJZg48ETQSWN2z_
+║
+╚════════════════════════╝
 `
 
 
